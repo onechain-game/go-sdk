@@ -1,8 +1,8 @@
 package transaction
 
 import (
-	"github.com/bnb-chain/go-sdk/types/msg"
-	"github.com/bnb-chain/go-sdk/types/tx"
+	"github.com/onechain-game/go-sdk/types/msg"
+	"github.com/onechain-game/go-sdk/types/tx"
 )
 
 type SetUriResult struct {

@@ -8,18 +8,17 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/cosmos/go-bip39"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/sha3"
 
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 
-	"github.com/bnb-chain/go-sdk/common"
-	"github.com/bnb-chain/go-sdk/common/ledger"
-	"github.com/bnb-chain/go-sdk/common/types"
-	ctypes "github.com/bnb-chain/go-sdk/common/types"
-	"github.com/bnb-chain/go-sdk/common/uuid"
-	"github.com/bnb-chain/go-sdk/types/tx"
+	"github.com/onechain-game/go-sdk/common"
+	"github.com/onechain-game/go-sdk/common/ledger"
+	"github.com/onechain-game/go-sdk/common/types"
+	ctypes "github.com/onechain-game/go-sdk/common/types"
+	"github.com/onechain-game/go-sdk/common/uuid"
+	"github.com/onechain-game/go-sdk/types/tx"
 	"github.com/tendermint/tendermint/crypto"
 )
 

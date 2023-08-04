@@ -3,8 +3,8 @@ package query
 import (
 	"encoding/json"
 
-	"github.com/bnb-chain/go-sdk/common"
-	"github.com/bnb-chain/go-sdk/common/types"
+	"github.com/onechain-game/go-sdk/common"
+	"github.com/onechain-game/go-sdk/common/types"
 )
 
 // GetTokens returns list of tokens

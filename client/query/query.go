@@ -1,8 +1,8 @@
 package query
 
 import (
-	"github.com/bnb-chain/go-sdk/client/basic"
-	"github.com/bnb-chain/go-sdk/common/types"
+	"github.com/onechain-game/go-sdk/client/basic"
+	"github.com/onechain-game/go-sdk/common/types"
 )
 
 type QueryClient interface {

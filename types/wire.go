@@ -1,9 +1,8 @@
 package types
 
 import (
-	ntypes "github.com/bnb-chain/go-sdk/common/types"
-	"github.com/bnb-chain/go-sdk/types/tx"
-	"github.com/tendermint/go-amino"
+	ntypes "github.com/onechain-game/go-sdk/common/types"
+	"github.com/onechain-game/go-sdk/types/tx"
 	types "github.com/tendermint/tendermint/rpc/core/types"
 )
 

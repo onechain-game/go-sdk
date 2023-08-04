@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/bnb-chain/go-sdk/common/types"
+	"github.com/onechain-game/go-sdk/common/types"
 )
 
 // GetAccount returns list of trading pairs

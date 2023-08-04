@@ -11,9 +11,9 @@ import (
 	rpcclient "github.com/tendermint/tendermint/rpc/lib/client"
 	"github.com/tendermint/tendermint/types"
 
-	ntypes "github.com/bnb-chain/go-sdk/common/types"
-	"github.com/bnb-chain/go-sdk/keys"
-	"github.com/bnb-chain/go-sdk/types/tx"
+	ntypes "github.com/onechain-game/go-sdk/common/types"
+	"github.com/onechain-game/go-sdk/keys"
+	"github.com/onechain-game/go-sdk/types/tx"
 )
 
 var DefaultTimeout = 5 * time.Second

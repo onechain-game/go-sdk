@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bnb-chain/go-sdk/common"
-	"github.com/bnb-chain/go-sdk/common/types"
-	sdk "github.com/bnb-chain/go-sdk/common/types"
-	"github.com/bnb-chain/go-sdk/keys"
-	gtypes "github.com/bnb-chain/go-sdk/types"
-	"github.com/bnb-chain/go-sdk/types/msg"
-	"github.com/bnb-chain/go-sdk/types/tx"
 	cTypes "github.com/cosmos/cosmos-sdk/types"
+	"github.com/onechain-game/go-sdk/common"
+	"github.com/onechain-game/go-sdk/common/types"
+	sdk "github.com/onechain-game/go-sdk/common/types"
+	"github.com/onechain-game/go-sdk/keys"
+	gtypes "github.com/onechain-game/go-sdk/types"
+	"github.com/onechain-game/go-sdk/types/msg"
+	"github.com/onechain-game/go-sdk/types/tx"
 	core_types "github.com/tendermint/tendermint/rpc/core/types"
 )
 

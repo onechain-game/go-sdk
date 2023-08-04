@@ -1,13 +1,11 @@
 package client
 
 import (
-	"gopkg.in/resty.v1"
-
-	"github.com/bnb-chain/go-sdk/client/basic"
-	"github.com/bnb-chain/go-sdk/client/query"
-	"github.com/bnb-chain/go-sdk/client/transaction"
-	"github.com/bnb-chain/go-sdk/common/types"
-	"github.com/bnb-chain/go-sdk/keys"
+	"github.com/onechain-game/go-sdk/client/basic"
+	"github.com/onechain-game/go-sdk/client/query"
+	"github.com/onechain-game/go-sdk/client/transaction"
+	"github.com/onechain-game/go-sdk/common/types"
+	"github.com/onechain-game/go-sdk/keys"
 )
 
 // dexClient wrapper

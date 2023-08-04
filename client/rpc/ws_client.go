@@ -16,15 +16,14 @@ import (
 	"github.com/pkg/errors"
 
 	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	"github.com/tendermint/go-amino"
 	cmn "github.com/tendermint/tendermint/libs/common"
 	"github.com/tendermint/tendermint/libs/log"
 	"github.com/tendermint/tendermint/rpc/client"
 	rpctypes "github.com/tendermint/tendermint/rpc/lib/types"
 	"github.com/tendermint/tendermint/types"
 
-	"github.com/bnb-chain/go-sdk/common/uuid"
-	"github.com/bnb-chain/go-sdk/types/tx"
+	"github.com/onechain-game/go-sdk/common/uuid"
+	"github.com/onechain-game/go-sdk/types/tx"
 )
 
 const (

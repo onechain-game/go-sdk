@@ -1,6 +1,6 @@
 package rpc
 
-import "github.com/bnb-chain/go-sdk/common/types"
+import "github.com/onechain-game/go-sdk/common/types"
 
 type OpsClient interface {
 	IsActive() bool

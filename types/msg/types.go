@@ -3,7 +3,6 @@ package msg
 import (
 	"math/big"
 
-	sdk "github.com/bnb-chain/go-sdk/common/types"
 	bridgeTypes "github.com/bnb-chain/node/plugins/bridge/types"
 	"github.com/bnb-chain/node/plugins/dex/order"
 	cTypes "github.com/cosmos/cosmos-sdk/types"
@@ -17,6 +16,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/stake"
 	crossStake "github.com/cosmos/cosmos-sdk/x/stake/cross_stake"
 	stakeTypes "github.com/cosmos/cosmos-sdk/x/stake/types"
+	sdk "github.com/onechain-game/go-sdk/common/types"
 )
 
 type (

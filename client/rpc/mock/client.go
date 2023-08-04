@@ -3,7 +3,7 @@ package mock
 import (
 	"reflect"
 
-	"github.com/bnb-chain/go-sdk/client/rpc"
+	"github.com/onechain-game/go-sdk/client/rpc"
 
 	cmn "github.com/tendermint/tendermint/libs/common"
 	"github.com/tendermint/tendermint/libs/log"
@@ -35,7 +35,6 @@ var _ rpc.Client = Client{}
 
 // Call is used by recorders to save a call and response.
 // It can also be used to configure mock responses.
-//
 type Call struct {
 	Name     string
 	Args     interface{}

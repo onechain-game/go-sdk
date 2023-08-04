@@ -7,11 +7,9 @@ import (
 	"net/url"
 	"time"
 
-	"gopkg.in/resty.v1"
-
-	"github.com/bnb-chain/go-sdk/types"
-	"github.com/bnb-chain/go-sdk/types/tx"
 	"github.com/gorilla/websocket"
+	"github.com/onechain-game/go-sdk/types"
+	"github.com/onechain-game/go-sdk/types/tx"
 )
 
 const (

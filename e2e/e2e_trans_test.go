@@ -2,23 +2,23 @@ package e2e
 
 import (
 	"fmt"
-	"github.com/bnb-chain/go-sdk/types"
+	"github.com/onechain-game/go-sdk/types"
 	"strings"
 	"testing"
 	time2 "time"
 
-	"github.com/bnb-chain/go-sdk/client/rpc"
+	"github.com/onechain-game/go-sdk/client/rpc"
 	"github.com/tendermint/tendermint/crypto"
 
 	"github.com/stretchr/testify/assert"
 
 	"github.com/tendermint/tendermint/types/time"
 
-	sdk "github.com/bnb-chain/go-sdk/client"
-	ctypes "github.com/bnb-chain/go-sdk/common/types"
-	"github.com/bnb-chain/go-sdk/keys"
-	"github.com/bnb-chain/go-sdk/types/msg"
-	txtype "github.com/bnb-chain/go-sdk/types/tx"
+	sdk "github.com/onechain-game/go-sdk/client"
+	ctypes "github.com/onechain-game/go-sdk/common/types"
+	"github.com/onechain-game/go-sdk/keys"
+	"github.com/onechain-game/go-sdk/types/msg"
+	txtype "github.com/onechain-game/go-sdk/types/tx"
 )
 
 // After bnbchain integration_test.sh has runned
