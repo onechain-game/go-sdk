@@ -1,4 +1,4 @@
-module github.com/bnb-chain/go-sdk
+module github.com/onechain-game/go-sdk
 
 go 1.17
 
