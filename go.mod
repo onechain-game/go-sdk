@@ -14,6 +14,7 @@ require (
 	github.com/tendermint/btcd v0.1.1
 	github.com/tendermint/go-amino v0.15.0
 	github.com/tendermint/tendermint v0.35.9
+	github.com/cometbft/cometbft v0.37.1
 	github.com/zondax/ledger-cosmos-go v0.9.9
 	golang.org/x/crypto v0.5.0
 	gopkg.in/resty.v1 v1.12.0

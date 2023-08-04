@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
+	ctypes "github.com/cometbft/cometbft/rpc/core/types"
 	"github.com/pkg/errors"
 	cmn "github.com/tendermint/tendermint/libs/common"
 	"github.com/tendermint/tendermint/rpc/client"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 	rpcclient "github.com/tendermint/tendermint/rpc/lib/client"
 	"github.com/tendermint/tendermint/types"
 
@@ -74,7 +74,7 @@ type HTTP struct {
 func NewHTTP(remote, wsEndpoint string) *HTTP {
 	rc := rpcclient.NewJSONRPCClient(remote)
 	cdc := rc.Codec()
-	ctypes.RegisterAmino(cdc)
+	//ctypes.RegisterAmino(cdc)
 	ntypes.RegisterWire(cdc)
 	tx.RegisterCodec(cdc)
 
